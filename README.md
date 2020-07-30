@@ -1,2 +1,2 @@
 # TASK-4
-Turn On or OFF bulb using HTML+CSS+JavaSCript
+Turn On and OFF bulb using HTML+CSS+JavaSCript
