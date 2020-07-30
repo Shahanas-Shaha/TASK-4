@@ -1,0 +1,43 @@
+/*created by shahanas*/
+input[type=checkbox]
+{
+   visibility: hidden; 
+ } 
+img{
+    position:absolute;
+    left:150px;
+    top:150px;
+}
+label 
+ {
+   width: 200px; 
+   height: 90px;
+   left:90px;
+   bottom:50px;
+   background: #515057;
+   border-radius: 90px;
+   box-shadow:0 0 5px 10px #292626;
+   position: absolute;
+   } 
+   /*circle*/
+label:after 
+  { 
+   content:"";
+   position: absolute; 
+   bottom: 10px; 
+   left: 5px;
+   width: 80px; 
+   height: 70px; 
+   background: #a10a0a;
+   border-radius: 90px;
+   box-shadow:0 0 5px 10px #292626;
+   transition: all 0.3s ease-in-out; 
+  } 
+/*for movement of circle*/
+input:checked + label:after 
+{
+left: calc(180px + 15px); 
+transform: translateX(-80px); 
+box-shadow:0 0 5px 10px #292626;
+background:#03fc41;
+}
