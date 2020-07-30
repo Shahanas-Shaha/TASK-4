@@ -1,4 +1,4 @@
 # TASK-4
-Turn On and OFF bulb using HTML+CSS+JavaSCript
+Turn On and OFF Bulb using HTML+CSS+JavaScript
 
 https://shahanas-shaha.github.io/TASK-4/
